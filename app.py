@@ -17,7 +17,7 @@ def copy_and_continue_button(text: str, url: str) -> None:
             border-radius:0.5em; border:none;
             background:#B0BC79; color:#FAF7ED; cursor:pointer;
             transition: background 0.15s ease;">
-            Open Review box
+            Copy & Open Review box
         </button>
         <script>
         const btn = document.getElementById('copyGoBtn');
