@@ -74,7 +74,7 @@ if store is None:
 # across visits).
 if st.session_state.get("current_store") != store_slug:
     st.session_state.current_store = store_slug
-    st.session_state.review_text = random_review(store["short_name"])
+    st.session_state.review_text = random_review()
 
 st.title(f"Thanks for visiting {store['name']}! ⭐")
 st.caption(store["address"])
@@ -84,9 +84,7 @@ st.write(
 )
 
 def shuffle_review() -> None:
-    st.session_state.review_text = random_review(
-        store["short_name"], exclude=st.session_state.review_text
-    )
+    st.session_state.review_text = random_review(exclude=st.session_state.review_text)
 
 
 st.text_area("Your review", key="review_text", height=160, label_visibility="collapsed")
