@@ -16,7 +16,7 @@ import qrcode
 
 from config import STORE_CONFIG
 
-BASE_URL = "https://REPLACE-WITH-YOUR-DEPLOYED-APP-URL.streamlit.app"
+BASE_URL = "https://vilvah-review.streamlit.app"
 
 OUT_DIR = Path(__file__).parent / "qr_codes"
 OUT_DIR.mkdir(exist_ok=True)
