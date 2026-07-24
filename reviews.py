@@ -45,7 +45,7 @@ OFFERS = [
     "Bought the products at a nice combo discount price.",
     "They have a policy where if you bring back 5 empty bottles they give an extra discount — thought that was a nice touch.",
     "Bought products at a flat 20% off, was really nice.",
-    "Never knew they give a discount for first-time purchases.",
+    "Didn't expect them to have this kind of discount running, but glad they did.",
 ]
 
 CLOSERS = [
