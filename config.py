@@ -14,8 +14,13 @@ STORE_CONFIG = {
     "tiruppur": {
         "name": "Vilvah Store - Tiruppur",
         "address": "Tiruppur, Tamil Nadu",
-        "google_review_url": "https://g.page/r/REPLACE_ME_TIRUPPUR/review",
+        "google_review_url": "https://g.page/r/CcoD88sHLn_KEBM/review",
     },
+    "erode": {
+        "name": "Vilvah Store - Erode",
+        "address": "Erode, Tamil Nadu",
+        "google_review_url": " https://g.page/r/CX2DRjnxMm-LEBM/review",
+    }
 }
 
 DEFAULT_STORE = "race-course"
